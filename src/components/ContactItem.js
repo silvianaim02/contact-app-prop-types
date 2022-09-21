@@ -15,7 +15,7 @@ function ContactItem({ imageUrl, name, tag, id, onDelete }) {
 }
 
 ContactItem.propTypes = {
-  id: PropTypes.number.isRequired,
+  id: PropTypes.string.isRequired,
   onDelete: PropTypes.func.isRequired,
   name: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
